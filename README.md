@@ -11,4 +11,4 @@ To download:
 
 "DNA Clicking Simulator" game is made by, and owned by HyperKNF, any redistribution is strictly prohibited.
 
-Copyright HyperKNF 2022
+Copyright (c) 2022 HyperKNF
