@@ -4,14 +4,15 @@ This repository is specifically made for the game "DNA Clicking Simulator" made 
 
 This Github repository is made for hosting, publishing, and downloading the game "DNA Clicking Simulator".
 
-Download link: https://www.mediafire.com/file/920mij8ozv6esp8/DNA_Clicking_Simulator_ALPHA1.2.4b_x64.zip/file (ALPHA1.2.4b)
+Version: ALPHA1.2.4b
+Download link: https://www.mediafire.com/file/920mij8ozv6esp8/DNA_Clicking_Simulator_ALPHA1.2.4b_x64.zip/file
 
 To download:
 1. Visit the download link above, the file is too big to download on or upload to Github
-2. Download the file "DNA_Clicking_Simulator_<VERSION>_x64.zip"
+2. Download the file "DNA_Clicking_Simulator_{VERSION}_x64.zip"
 3. Unzip it
 4. Open the unzipped folder
-5. Run "DNA Clicking Simulator <VERSION>.exe" and have fun!
+5. Run "DNA Clicking Simulator {VERSION}.exe" and have fun!
 
 "DNA Clicking Simulator" game is made by, owned by, and released by HyperKNF, any redistribution without proper credits or with monetization is strictly prohibited. If any redistribution is found, serious actions could be taken.
 
