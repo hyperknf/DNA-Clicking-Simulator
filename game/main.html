@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+
+<html>
+    <noscript>
+        Your current browser does not support JavaScript! Please enable JavaScript support or switch to a browser with JavaScript support in order for this page to work!
+    </noscript>
+
+    <center>
+        <link href='https://fonts.googleapis.com/css?family=Fredoka One' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="assets/styles/main.css"/>
+
+        <head>
+            <title>
+                DNA Clicking Simulator
+            </title>
+        </head>
+        <body>
+            <img src="assets/images/banner.png" alt="banner.png" width="100%">
+
+            <font color="#FF0000">
+                <h2>
+                    ~~ DNA Clicking Simulator by HyperKNF ~~
+                </h2>
+            </font>
+            <br>
+            <img src="assets/images/standwithukraine.png" alt="standwithukraine.png" width="100px" height="100px">
+            <br>
+            <font color="#FFFF00"><b> We stand with Ukraine, <font color="#0000FF">come show your support by going to https://standwithukraine.live/ </font></b></font>
+
+            <hr>
+
+            <table style="width:100%">
+                <tr>
+                    <th>
+                        <font color="#FF0000">
+                            Currencies
+                        </font>
+                    </th>
+                    <th>
+                        <font color="#FF0000">
+                            Equations
+                        </font>
+                    </th>
+                    <th>
+                        <font color="#FF0000">
+                            Scientists
+                        </font>
+                    </th>
+                    <th>
+                        <font color="#FF0000">
+                            Upgrades
+                        </font>
+                    </th>
+                </tr>
+                <tr>
+                    <td id="CurrencyDisplay">
+                        Loading...
+                    </td>
+                    <td id="EquationsDisplay">
+                        Loading...
+                    </td>
+                    <td id="ScientistsDisplay">
+                        <u>
+                            Coming soon!
+                        </u>
+                    </td>
+                    <td id="UpgradesDisplay">
+                        Loading...
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <font color="#FF0000">
+                            Capsule 1 DNAs
+                        </font>
+                    </th>
+                    <th>
+                        <font color="#FF0000">
+                            Release Event Capsule DNAs
+                        </font>
+                    </th>
+                </tr>
+                <tr>
+                    <td id="Capsule1Display">
+                        Loading...
+                    </td>
+                    <td id="ReleaseEventCapsuleDisplay">
+                        Loading...
+                    </td>
+                </tr>
+            </table>
+
+            <hr>
+
+            <div id="Buttons">
+                <font color="#FF0000" id="ClickTitle">
+                    Loading...
+                </font>
+                <br>
+                <button onclick="Click()" id="ClickButton">
+                    Loading...
+                </button>
+                <br>
+                <font color="#FF0000" id="EvolveTitle">
+                    Loading...
+                </font>
+                <br>
+                <button onclick="Evolve()" id="EvolveButton">
+                    Loading...
+                </button>
+                <br>
+                <font color="#FF0000" id="RebirthTitle">
+                    Loading...
+                </font>
+                <br>
+                <button onclick="Rebirth()" id="RebirthButton">
+                    Loading...
+                </button>
+                <br>
+                <font color="#FF0000" id="PrestigeTitle">
+                    Loading...
+                </font>
+                <br>
+                <button onclick="Prestige()" id="PrestigeButton">
+                    Loading...
+                </button>
+            </div>
+
+            <hr>
+
+            <font color="#FF0000">
+                Upgrade Cash Multiplier by 1x
+            </font>
+            <br>
+            <button onclick="UpgradeCashMultiplier()" id="UpgradeCashMultiplierButton">
+                Loading...
+            </button>
+            <br>
+            <font color="#FF0000">
+                Upgrade Electron Multiplier by 1x
+            </font>
+            <br>
+            <button onclick="UpgradeElectronMultiplier()" id="UpgradeElectronMultiplierButton">
+                Loading...
+            </button>
+            <br>
+            <font color="#FF0000" id="UpgradeUnlockEquationsTitle">
+                Loading...
+            </font>
+            <br>
+            <button onclick="UpgradeUnlockEquations()" id="UpgradeUnlockEquationsButton">
+                Loading...
+            </button>
+            <br>
+            <font color="#FF0000" id="UpgradeAlphaExponentTitle">
+                Loading...
+            </font>
+            <br>
+            <button onclick="UpgradeAlphaExponent()" id="UpgradeAlphaExponentButton">
+                Loading...
+            </button>
+            <br>
+            <font color="#FF0000" id="UpgradeAlphaMultiplicationTitle">
+                Upgrade Equation &alpha; Multiplication
+            </font>
+            <br>
+            <button onclick="UpgradeAlphaMultiplication()" id="UpgradeAlphaMultiplicationButton">
+                Loading...
+            </button>
+        </body>
+
+        <hr>
+
+        <font color="#FF0000">
+            Capsules
+        </font>
+        <br>
+        <font color="#00FF00" id="CapsuleOutput">
+            The output of capsule(s) will be displayed here
+        </font>
+        <table>
+            <tr>
+                <th>
+                    <font color="#FF0000">
+                        Capsule 1
+                    </font>
+                </th>
+                <th>
+                    <font color="#FF0000">
+                        Release Event Capsule
+                    </font>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <u id="Capsule1Data">
+                        Loading...
+                    </u>
+                </td>
+                <td>
+                    <u id="ReleaseEventCapsuleData">
+                        Loading...
+                    </u>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="Capsule1Button" onclick="CapsuleOne()">
+                        Loading...
+                    </button>
+                </td>
+                <td>
+                    <button id="ReleaseEventCapsuleButton" onclick="ReleaseEventCapsule()">
+                        Loading...
+                    </button>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <footer>
+            <font color="#FF0000">
+                DNA Clicking Simulator | Version ALPHA1.2.4b
+            </font>
+        </footer>
+    </center>
+
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
+</html>
