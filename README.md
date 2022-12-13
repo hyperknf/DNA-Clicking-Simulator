@@ -13,6 +13,6 @@ To download:
 4. Open the unzipped folder
 5. Run "DNA Clicking Simulator <VERSION>.exe" and have fun!
 
-"DNA Clicking Simulator" game is made by, owned by, and released by HyperKNF, any redistribution is strictly prohibited. If any redistribution is found, serious actions could be taken.
+"DNA Clicking Simulator" game is made by, owned by, and released by HyperKNF, any redistribution without proper credits or with monetization is strictly prohibited. If any redistribution is found, serious actions could be taken.
 
 Copyright (c) 2022 HyperKNF
