@@ -5,6 +5,7 @@ This repository is specifically made for the game "DNA Clicking Simulator" made 
 This Github repository is made for hosting, publishing, and downloading the game "DNA Clicking Simulator".
 
 Version: ALPHA1.2.4b
+
 Download link: https://www.mediafire.com/file/920mij8ozv6esp8/DNA_Clicking_Simulator_ALPHA1.2.4b_x64.zip/file
 
 To download:
