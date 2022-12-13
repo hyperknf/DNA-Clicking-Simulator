@@ -1,0 +1,36 @@
+body {
+    font-family: 'Fredoka One';
+    font-size: 15px
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center
+}
+u {
+    border-bottom: 1px solid black;
+    display: inline;
+    text-decoration: none
+}
+overline {
+    border-top: 1px solid black;
+    display: inline;
+    text-decoration: none
+}
+sup {
+    font-size: 80%
+}
+secondsup {
+    font-size: 75%;
+    vertical-align: 69%
+}
+thirdsup {
+    font-size: 70%;
+    vertical-align: 110%
+}
+fourthsup {
+    font-size: 65%;
+    vertical-align: 140%
+}
+sub {
+    font-size: 80%;
+}
