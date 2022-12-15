@@ -645,8 +645,7 @@ function DataExport() {
         if (typeof Game[item] != "string") continue
         JSONData.push(`${item}:${Game[item]}`)
     }
-    navigator.clipboard.writeText(Base64Encode(JSONData.join("|")))
-    alert("Copied data token to clipboard.")
+    navigator.clipboard.writeText(Base64Encode(JSONData.join("|"))).then(() => alert("Copied data token to clipboard."))
 }
 
 window.addEventListener('keydown', e => {
