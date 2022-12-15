@@ -7,6 +7,9 @@ table, th, td {
     text-align: center
 }
 u {
+    text-decoration: none
+}
+underline {
     border-bottom: 1px solid black;
     display: inline;
     text-decoration: none
@@ -15,6 +18,9 @@ overline {
     border-top: 1px solid black;
     display: inline;
     text-decoration: none
+}
+lilsup {
+    vertical-align: 30%;
 }
 sup {
     font-size: 80%
@@ -31,6 +37,36 @@ fourthsup {
     font-size: 65%;
     vertical-align: 140%
 }
-sub {
-    font-size: 80%;
+lilsub {
+    vertical-align: -50%;
 }
+sub {
+    font-size: 80%
+}
+ssmiddle {
+    position: relative;
+    font-size: 1.8em;
+    display: inline-block;
+    vertical-align: middle
+}
+ssmiddle:before {
+    font-size: 14px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "lh(S)";
+    width: 22px;
+    text-align: center
+}
+ssmiddle:after {
+    font-size: 14px;
+    display: block;
+    position absolute;
+    left: 0;
+    bottom: 0;
+    content: "i = 1";
+    width: 27px;
+    text-align: center
+}
+

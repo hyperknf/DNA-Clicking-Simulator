@@ -17,6 +17,7 @@
         <body>
             <img src="assets/images/banner.png" alt="banner.png" width="100%">
 
+            
             <font color="#FF0000">
                 <h2>
                     ~~ DNA Clicking Simulator by HyperKNF ~~
@@ -61,7 +62,22 @@
                     </td>
                     <td id="ScientistsDisplay">
                         <u>
-                            Coming soon!
+                            <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+                            S = Scientists
+                            <br>
+                            Define lh(X) to be the length of the sequence or set X
+                            <br>
+                            Electrons Boost = <ssmiddle><lilsub>&Sigma;</lilsub></ssmiddle>S<sub>i</sub> = 0
+                            <br><br>
+                            S<sub>1</sub> = 0
+                            <br>
+                            S<sub>2</sub> = 0
+                            <br>
+                            S<sub>3</sub> = 0
+                            <br>
+                            S<sub>4</sub> = 0
+                            <br>
+                            S<sub>5</sub> = 0
                         </u>
                     </td>
                     <td id="UpgradesDisplay">
@@ -219,9 +235,20 @@
 
         <hr>
 
+        <font color="#FF0000">
+            Data Import & Export
+        </font>
+        <br><br>
+        <input id="DataImport" name="Data Import">
+        <button onclick="DataImport(document.getElementById('DataImport').value)">Confirm data import token</button>
+        <br><br>
+        <button onclick="DataExport()">Copy current data import token to clipboard</button>
+
+        <hr>
+
         <footer>
             <font color="#FF0000">
-                DNA Clicking Simulator | Version ALPHA1.2.4b
+                DNA Clicking Simulator | Version BETA1.0
             </font>
         </footer>
     </center>

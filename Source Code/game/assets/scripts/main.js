@@ -602,6 +602,53 @@ function ReleaseEventCapsule() {
     }
 }
 
+function Base64Encode(string) {
+    let result = btoa(encodeURIComponent(string))
+    for (let i = 1; i <= 10; i++) result = btoa(encodeURIComponent(result))
+    return result
+}
+function Base64Decode(string) {
+    let result = decodeURIComponent(atob(string))
+    for (let i = 1; i <= 10; i++) result = decodeURIComponent(atob(result))
+    return result
+}
+
+function DataImport(token) {
+    try {
+        if (token == "") throw new Error()
+        const data = Base64Decode(token)
+        const dataArray = data.split("|")
+        for (let i = 0; i <= dataArray.length - 1; i++) dataArray[i] = dataArray[i].split(":")
+        const confirmation = confirm("Are you sure you want to override the current data with your data token?")
+        if (confirmation == true) {
+            for (let i = 0; i <= dataArray.length - 1; i++) {
+                if (!Game[dataArray[i][0]]) throw new Error()
+                Game[dataArray[i][0]] = dataArray[i][1]
+            }
+            document.getElementById("DataImport").value = ""
+
+            UpdateElectronBoost()
+            UpdateBuyableAmount()
+            UpdateDisplay()
+
+            alert("Successfully overrided the data.")
+        }
+    } catch (exception) {
+        alert("The token you've entered was not valid.")
+        return
+    }
+}
+
+function DataExport() {
+    let JSONData = []
+    for (let item in Game) {
+        if (typeof Game[item] != "string") continue
+        JSONData.push(`${item}:${Game[item]}`)
+    }
+    navigator.clipboard.writeText(Base64Encode(JSONData.join("|")))
+    alert("Copied data token to clipboard.")
+}
+
 window.addEventListener('keydown', e => {
     if (e.key == 'F12') e.preventDefault()
     if (e.ctrlKey && e.shiftKey && (e.key == 'i' || e.key == 'I')) e.preventDefault()
