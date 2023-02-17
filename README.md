@@ -6,7 +6,7 @@ This Github repository is made for hosting, publishing, and downloading the game
 
 Version: BETA1.0
 
-Download link: https://www.mediafire.com/file/l5f7bx6fnyqopew/DNA_Clicking_Simulator_BETA1.0_x64.zip/file
+Download link: https://www.mediafire.com/file/l5f7bx6fnyqopew/DNA_Clicking_Simulator_BETA1.0_x64.zip/file (https://www.mediafire.com/file/l5f7bx6fnyqopew/DNA_Clicking_Simulator_BETA1.0_x64.zip/file)
 
 To download:
 1. Visit the download link above, the file is too big to download on or upload to Github
